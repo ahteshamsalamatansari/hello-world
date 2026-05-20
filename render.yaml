@@ -1,0 +1,33 @@
+services:
+  - type: cron
+    name: rex-per-mjk-scraper
+    runtime: python
+    # Schedule: 0 13 * * * (13:00 UTC) which corresponds to 21:00 AWST (Perth local time)
+    schedule: "0 13 * * *"
+    # Build: install packages (we connect over CDP, so no local playwright browser install is needed)
+    buildCommand: pip install -r requirements.txt
+    # Command: run both routes, 84 days, resume mode on
+    command: python Rex_per_mjk_Playwright_final.py --routes PER-MJK,MJK-PER --days 84 --resume
+    plan: starter          # change to standard if you need more RAM/CPU
+    envVars:
+      - key: REX_TIMEZONE
+        value: Australia/Perth
+      - key: REX_TOTAL_DAYS
+        value: "84"
+      - key: REX_OUTPUT_EXCEL
+        value: rex_per_mjk_results.xlsx
+      - key: REX_DEBUG_DIR
+        value: rex_debug
+      - key: REX_LOG_DIR
+        value: rex_logs
+      - key: BD_BROWSER_HOST
+        value: brd.superproxy.io
+      - key: BD_SCRAPING_BROWSER_PORT
+        value: "9222"
+      # Sensitive credentials — set these in the Render Dashboard, NOT here:
+      # - key: BD_BROWSER_USER
+      # - key: BD_BROWSER_PASS
+      # - key: BD_AUTH_TOKEN
+      # - key: SMTP_EMAIL
+      # - key: SMTP_PASSWORD
+      # - key: RECIPIENT_EMAIL

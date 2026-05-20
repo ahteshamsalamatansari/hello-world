@@ -1,0 +1,62 @@
+🧾 Log: rex_logs\rex_per_mjk_20260520_20260520_211621.log
+
+════════════════════════════════════════════════════════════
+  REX PER ↔ MJK SCRAPER — RUN SUMMARY  [Playwright Edition]
+════════════════════════════════════════════════════════════
+  ✈️   PER → MJK  (Perth → Monkey Mia (Shark Bay))
+  📆 Dates   : 1 days  (from 20-05-2026  [today])
+  🗂  Output  : output/rex_per_mjk_results.xlsx
+  🔁 Run ID  : 20260520
+  ↩️  Resume  : No — fresh run
+  🌐 Engine  : Playwright (Bright Data Scraping Browser CDP)
+  🔗 Endpoint: wss://...@brd.superproxy.io:9222
+════════════════════════════════════════════════════════════
+
+
+████████████████████████████████████████████████████████████
+  ROUTE : PER (Perth) → MJK (Monkey Mia (Shark Bay))
+  Dates : 20-05-2026 → 20-05-2026
+  Output: output/rex_per_mjk_results.xlsx
+  Attempts/date: 3
+████████████████████████████████████████████████████████████
+
+
+════════════════════════════════════════════════════════════
+📅 [1/1]  Wednesday, 20 May 2026
+────────────────────────────────────────────────────────────
+   🔁 Attempt 1/3 — PER→MJK 20-05-2026
+   🔌 Connecting to Bright Data Scraping Browser (attempt 1/4)...
+   ✅ Browser connected
+   🌐 Rex homepage load (attempt 1/3)...
+   ⏳ Bright Data CAPTCHA solver active — waiting up to 15s...
+   ✅ CAPTCHA wait complete
+   ⏳ Waiting for Rex homepage form...
+   ✅ Rex booking form ready
+   ✅ One-way selected
+   ✅ Origin airport selected: PER
+   ✅ Destination airport selected: MJK
+   📅 Date set: 20 May 2026
+   🍪 Cookie popup dismissed (.eupopup-button_1)
+   ✅ Form submitted
+   ⏳ Bright Data CAPTCHA solver active — waiting up to 90s...
+   ✅ CAPTCHA wait complete
+   🧩 Verification page detected! Triggering Bright Data Captcha.solve (timeout 90s)...
+   🧩 CDP: Captcha.solve status: solve_finished
+   🔒 Waiting for Continue button to become enabled...
+   ✅ Verification Continue button clicked.
+   ℹ️  No fare signal detected
+   🔌 Browser context closed
+   💾 Saved 1 row(s) → output/rex_per_mjk_results.xlsx
+   ℹ️  No fare for 20-05-2026
+
+════════════════════════════════════════════════════════════
+  ROUTE RUN RESULTS
+════════════════════════════════════════════════════════════
+  ✅  PER → MJK
+════════════════════════════════════════════════════════════
+
+📊 Output: output/rex_per_mjk_results.xlsx
+
+📧 Sending email report to ahteshamansari@bizprospex.com via SMTP...
+📎 Attached file: rex_per_mjk_results.xlsx
+✅ Email report sent successfully!

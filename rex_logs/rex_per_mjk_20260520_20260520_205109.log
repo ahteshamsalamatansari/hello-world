@@ -1,0 +1,322 @@
+🧾 Log: rex_logs\rex_per_mjk_20260520_20260520_205109.log
+
+════════════════════════════════════════════════════════════
+  REX PER ↔ MJK SCRAPER — RUN SUMMARY  [Playwright Edition]
+════════════════════════════════════════════════════════════
+  ✈️   PER → MJK  (Perth → Monkey Mia (Shark Bay))
+  📆 Dates   : 1 days  (from 20-05-2026  [today])
+  🗂  Output  : rex_per_mjk_results_20260520_205109.xlsx
+  🔁 Run ID  : 20260520
+  ↩️  Resume  : No — fresh run
+  🌐 Engine  : Playwright (Bright Data Scraping Browser CDP)
+  🔗 Endpoint: wss://...@brd.superproxy.io:9222
+════════════════════════════════════════════════════════════
+
+
+████████████████████████████████████████████████████████████
+  ROUTE : PER (Perth) → MJK (Monkey Mia (Shark Bay))
+  Dates : 20-05-2026 → 20-05-2026
+  Output: rex_per_mjk_results_20260520_205109.xlsx
+  Attempts/date: 3
+████████████████████████████████████████████████████████████
+
+
+════════════════════════════════════════════════════════════
+📅 [1/1]  Wednesday, 20 May 2026
+────────────────────────────────────────────────────────────
+   🔁 Attempt 1/3 — PER→MJK 20-05-2026
+   🔌 Connecting to Bright Data Scraping Browser (attempt 1/4)...
+   ⚠️  Bright Data connect error, retrying in 8s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 2/4)...
+   ⚠️  Bright Data connect error, retrying in 16s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 3/4)...
+   ⚠️  Bright Data connect error, retrying in 24s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 4/4)...
+   ❌ Unhandled exception: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+Traceback (most recent call last):
+  File "C:\Users\biz\Downloads\Rex_Final\Rex_per_mjk_Playwright_final.py", line 1163, in scrape_one_date
+    browser, context, page = make_page(pw_instance)
+                             ~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\biz\Downloads\Rex_Final\Rex_per_mjk_Playwright_final.py", line 569, in make_page
+    browser = pw_instance.chromium.connect_over_cdp(
+        BD_CDP_URL,
+        timeout=60_000,   # 60s connection timeout
+    )
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\sync_api\_generated.py", line 14975, in connect_over_cdp
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.connect_over_cdp(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_browser_type.py", line 207, in connect_over_cdp
+    response = await self._channel.send_return_as_dict(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "connectOverCDP", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Browser context closed
+   ⚠️  Attempt 1 ended: FAILED_AFTER_RETRIES
+   ⏳ Backing off 8.3s before attempt 2...
+   🔁 Attempt 2/3 — PER→MJK 20-05-2026
+   🔌 Connecting to Bright Data Scraping Browser (attempt 1/4)...
+   ⚠️  Bright Data connect error, retrying in 8s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 2/4)...
+   ⚠️  Bright Data connect error, retrying in 16s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 3/4)...
+   ⚠️  Bright Data connect error, retrying in 24s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 4/4)...
+   ❌ Unhandled exception: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+Traceback (most recent call last):
+  File "C:\Users\biz\Downloads\Rex_Final\Rex_per_mjk_Playwright_final.py", line 1163, in scrape_one_date
+    browser, context, page = make_page(pw_instance)
+                             ~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\biz\Downloads\Rex_Final\Rex_per_mjk_Playwright_final.py", line 569, in make_page
+    browser = pw_instance.chromium.connect_over_cdp(
+        BD_CDP_URL,
+        timeout=60_000,   # 60s connection timeout
+    )
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\sync_api\_generated.py", line 14975, in connect_over_cdp
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.connect_over_cdp(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_browser_type.py", line 207, in connect_over_cdp
+    response = await self._channel.send_return_as_dict(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "connectOverCDP", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Browser context closed
+   ⚠️  Attempt 2 ended: FAILED_AFTER_RETRIES
+   ⏳ Backing off 17.7s before attempt 3...
+   🔁 Attempt 3/3 — PER→MJK 20-05-2026
+   🔌 Connecting to Bright Data Scraping Browser (attempt 1/4)...
+   ⚠️  Bright Data connect error, retrying in 8s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 2/4)...
+   ⚠️  Bright Data connect error, retrying in 16s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 3/4)...
+   ⚠️  Bright Data connect error, retrying in 24s: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Connecting to Bright Data Scraping Browser (attempt 4/4)...
+   ❌ Unhandled exception: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+Traceback (most recent call last):
+  File "C:\Users\biz\Downloads\Rex_Final\Rex_per_mjk_Playwright_final.py", line 1163, in scrape_one_date
+    browser, context, page = make_page(pw_instance)
+                             ~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\biz\Downloads\Rex_Final\Rex_per_mjk_Playwright_final.py", line 569, in make_page
+    browser = pw_instance.chromium.connect_over_cdp(
+        BD_CDP_URL,
+        timeout=60_000,   # 60s connection timeout
+    )
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\sync_api\_generated.py", line 14975, in connect_over_cdp
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.connect_over_cdp(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_browser_type.py", line 207, in connect_over_cdp
+    response = await self._channel.send_return_as_dict(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "connectOverCDP", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\biz\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.connect_over_cdp: WebSocket error: wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+Call log:
+  - <ws connecting> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/
+  - <ws unexpected response> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ 403 Auth Failed (wrong_customer_name)
+Wrong customer name
+  - <ws error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ error WebSocket was closed before the connection was established
+  - <ws connect error> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ WebSocket was closed before the connection was established
+  - <ws disconnected> wss://brd-customer-hl_fbc4a16a-zone-cont_rex:072res2p22t3@brd.superproxy.io:9222/ code=1006 reason=
+
+   🔌 Browser context closed
+   ⚠️  Attempt 3 ended: FAILED_AFTER_RETRIES
+   💾 Saved 1 row(s) → rex_per_mjk_results_20260520_205109.xlsx
+   ❌ FAILED_AFTER_RETRIES
+
+════════════════════════════════════════════════════════════
+  ROUTE RUN RESULTS
+════════════════════════════════════════════════════════════
+  ✅  PER → MJK
+════════════════════════════════════════════════════════════
+
+📊 Output: rex_per_mjk_results_20260520_205109.xlsx
+
+⚠️  SMTP_EMAIL, SMTP_PASSWORD, or RECIPIENT_EMAIL not set in environment. Skipping email report.
