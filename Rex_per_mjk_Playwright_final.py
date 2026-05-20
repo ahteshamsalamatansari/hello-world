@@ -1454,6 +1454,10 @@ if __name__ == "__main__":
                         self._fh.write(data)
                 except Exception:
                     pass
+                try:
+                    self.flush()
+                except Exception:
+                    pass
             def flush(self):
                 try:
                     self._orig.flush()

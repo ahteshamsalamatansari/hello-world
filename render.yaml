@@ -10,6 +10,8 @@ services:
     command: python Rex_per_mjk_Playwright_final.py --routes PER-MJK,MJK-PER --days 84 --resume
     plan: starter          # change to standard if you need more RAM/CPU
     envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
       - key: REX_TIMEZONE
         value: Australia/Perth
       - key: REX_TOTAL_DAYS
